@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MobileDetailActivity"
+    android:background="@color/mobileListBackground">
+
+
+
+
+    <ImageView
+        android:id="@+id/imgTest"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="280dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/login_background"
+        />
+
+    <LinearLayout
+        android:id="@+id/values"
+        style="@style/compareLinearStyle">
+
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"/>
+        <TextView
+            android:id="@+id/txtColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtGuarantee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtSimCounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtOsType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtWaterProof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtNetworkType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtCompanyCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/labels"
+        style="@style/compareLinearStyle">
+
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobileName"
+            android:layout_marginTop="400dp"/>
+        <TextView
+            android:id="@+id/lblColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileColor"/>
+        <TextView
+            android:id="@+id/lblGuarantee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileGuarantee" />
+        <TextView
+            android:id="@+id/lblWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileWeight" />
+        <TextView
+            android:id="@+id/lblSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileSize"/>
+        <TextView
+            android:id="@+id/lblSimCounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileSimCounts"/>
+        <TextView
+            android:id="@+id/lblCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileCamera"/>
+        <TextView
+            android:id="@+id/lblOsType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileOsType"/>
+        <TextView
+            android:id="@+id/lblWaterProof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileWaterProof"/>
+        <TextView
+            android:id="@+id/lblNetworkType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileNetworkType"/>
+        <TextView
+            android:id="@+id/lblCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileCompanyName"/>
+        <TextView
+            android:id="@+id/lblCompanyCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mobileCompanyCountry"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>

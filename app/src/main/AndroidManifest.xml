@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.armani.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".YourBasketActivity"></activity>
+        <activity android:name=".TwoMobileForCompareActivity" />
+        <activity android:name=".CompareActivity" />
+        <activity android:name=".MobileActivity" />
+        <activity android:name=".AccessoryDetailActivity" />
+        <activity android:name=".MobileContentsActivity" />
+        <activity android:name=".AccessoryActivity" />
+        <activity android:name=".MobileDetailActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ListTestActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

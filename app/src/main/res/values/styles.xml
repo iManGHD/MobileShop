@@ -1,0 +1,55 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Light">
+        <item name="android:listViewStyle">@style/ListViewStyle.Light</item>
+    </style>
+
+    <style name="ListViewStyle.Light" parent="android:style/Widget.ListView">
+        <item name="background">@color/lightBlue</item>
+        <item name="android:colorBackground">@color/lightBlue</item>
+        <item name="android:itemBackground">@color/lightBlue</item>
+        <item name="android:divider">@color/lightGray</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:listSelector">@color/green</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="HomeImage" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/home_image</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:contentDescription">Home</item>
+    </style>
+
+    <style name="compareTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+
+
+    </style>
+
+
+    <style name="compareLinearStyle">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">30dp</item>
+
+    </style>
+
+
+</resources>

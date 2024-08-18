@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".AccessoryDetailActivity">
+
+    <ImageView
+        android:id="@+id/imgAccessory"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="280dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/accessory_image"
+        />
+
+    <LinearLayout
+        android:id="@+id/values"
+        style="@style/compareLinearStyle">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"/>
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Labels"
+        style="@style/compareLinearStyle">
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accessoryName"
+            android:layout_marginTop="400dp"/>
+        <TextView
+            android:id="@+id/lblPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accessoryPrice"/>
+
+</LinearLayout>
+
+</LinearLayout>

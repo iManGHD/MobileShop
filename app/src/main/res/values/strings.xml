@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">نرم افزار خرید موبایل و لوازم جانبی</string>
+    <string name="click_me">click me</string>
+    <string name="sayHello">Hello</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="log_in">ورود</string>
+    <string name="information">information</string>
+    <string name="Mobile_buying">خرید موبایل</string>
+    <string name="AccessoryBuying">خرید لوازم جانبی</string>
+    <string name="welcome_message">  عزیز، خوش آمدید. </string>
+    <string name="mobileName">نام موبایل</string>
+    <string name="mobileColor">رنگ</string>
+    <string name="mobileGuarantee">گارانتی دارد</string>
+    <string name="mobileWeight">وزن</string>
+    <string name="mobileSize">سایز</string>
+    <string name="mobileSimCounts">تعداد سیم کارت</string>
+    <string name="mobileCpuType">پردازنده</string>
+    <string name="mobileMemory">حافظه</string>
+    <string name="mobileCamera">دوربین</string>
+    <string name="mobileOsType">سیستم عامل</string>
+    <string name="mobileWaterProof">ضد آب</string>
+    <string name="mobileNetworkType">نوع شبکه</string>
+    <string name="mobileCompanyName">شرکت</string>
+    <string name="mobileCompanyCountry">کشور</string>
+    <string name="compare">مقایسه</string>
+    <string name="firstMobileHint">موبایل اول</string>
+    <string name="secondMobileHint">موبایل دوم</string>
+    <string name="accessoryPrice">قیمت </string>
+    <string name="accessoryName">نام </string>
+    <string name="goodAddedToBasketSuccessfully"> کالا مورد نظر به سبد خرید شما افزوده شد . </string>
+    <string name="anErrorOccurredInBasketAdd">در ثبت کالا مشکلی پیش آمده!</string>
+    <string name="pleaseEnterMobilesNameError">لطفا نام موبایل ها برای مقایسه را وارد نمایید</string>
+    <string name="anErrorOccurredInCompare">مشکلی در مقایسه کالا بوجود آمده است</string>
+    <string name="your_basket_is_empty">سبد کالای شما خالی می باشد.</string>
+    <string name="anErrorOccurredInOpenBasket">مشکلی در باز کردن سبد کالا بوجود آمده است.</string>
+    <string name="accessoryList">لیست لوازم جانبی</string>
+    <string name="mobileList">لیست موبایل ها</string>
+    <string name="mobileBuy">خرید موبایل</string>
+    <string name="accessoryBuy">خرید لوازم جانبی</string>
+    <string name="assetCompare">مقایسه کالا</string>
+    <string name="yourBasket">سبد خرید شما</string>
+
+
+</resources>

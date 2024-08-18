@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CompareActivity">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/compare_image"
+
+            android:gravity="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/firstMobileLnr"
+            style="@style/compareLinearStyle">
+
+
+            <TextView
+                android:id="@+id/firstMobileName"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileColor"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileGuarantee"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileWeight"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileSize"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileSimCounts"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileCpuType"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileMemory"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileCamera"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileOsType"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileWaterProof"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileNetworkType"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileCompanyName"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/firstMobileCountry"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondMobileLnr"
+            style="@style/compareLinearStyle">
+
+
+            <TextView
+                android:id="@+id/secondMobileName"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileColor"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileGuarantee"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileWeight"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileSize"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileSimCounts"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileCpuType"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileMemory"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileCamera"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileOsType"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileWaterProof"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileNetworkType"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileCompanyName"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                android:id="@+id/secondMobileCompanyCountry"
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/specLnr"
+            style="@style/compareLinearStyle">
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileName" />
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileColor" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileGuarantee" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileWeight" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileSize" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileSimCounts" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileCpuType" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileMemory" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileCamera" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileOsType" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileWaterProof" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileNetworkType" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileCompanyName" />
+
+
+            <TextView
+                style="@style/compareTextStyle"
+                android:text="@string/mobileCompanyCountry" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

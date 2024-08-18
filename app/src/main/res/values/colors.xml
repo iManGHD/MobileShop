@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="whiteBackground">#FFFFFF</color>
+    <color name="lightBlue">#03A9F4</color>
+    <color name="lightGray">#AFAFAF</color>
+    <color name="green">#4CAF50</color>
+    <color name="swipeListBackgroundColor">#80D4FF</color>
+    <color name="swipeListTextColor">#FFFFFF</color>
+    <color name="swipeListFirstItem">#FF9F14</color>
+    <color name="swipeListSecondItem">#962A00</color>
+    <color name="mobileListBackground">#FFE9E0</color>
+    <color name="basketSwipeRemoveItem">#FFFFFF</color>
+
+</resources>

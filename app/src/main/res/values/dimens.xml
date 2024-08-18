@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_component_margin">10dp</dimen>
+    <dimen name="login_edit_text_height">40dp</dimen>
+    <dimen name="home_button_width">120dp</dimen>
+    <dimen name="home_button_height">140dp</dimen>
+    <dimen name="home_icon_font_size">25sp</dimen>
+    <dimen name="home_text_padding">10sp</dimen>
+    <dimen name="basket_text_size">20sp</dimen>
+    <dimen name="basket_padding">20sp</dimen>
+</resources>
