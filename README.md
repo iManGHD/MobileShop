@@ -1,2 +1,2 @@
 # MobileShop
-My undergraduate project 😎
+The mobile and accessories store project was built using Java for backend development and Android for front-end design. Several technologies were integrated into this plan, including the Spring framework, which was utilized in the form of Spring Data, Spring Boot, and Spring MVC. The architecture of the project was based on microservice patterns, contributing to the ease of development and maintenance. Oracle XE V18 was used as the database for storing relevant data. This combination of technologies and architectural design made the project robust and efficient, ensuring a smooth user experience on both the mobile and web platforms.
